@@ -1,5 +1,3 @@
-//package Set4;
-
 import java.util.Scanner;
 
 public class NumberUtils {
@@ -15,6 +13,7 @@ public class NumberUtils {
         NumberUtils obj = new NumberUtils();
 
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number: ");
         int num = sc.nextInt();
         System.out.println("Last digit of the number is: " + obj.getLastDigit(num));
         sc.close();

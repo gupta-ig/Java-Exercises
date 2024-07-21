@@ -1,4 +1,4 @@
-public class NumberOfDigits {
+public class NumberOfDigit {
 
     /**
      * This method calculates and returns the number of digits in a given integer.
