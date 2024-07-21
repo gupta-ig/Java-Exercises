@@ -22,5 +22,7 @@ public class NumberOfDigit {
         }
         return count;
     }
-
+    public static void main(String[] args) {
+        
+    }
 }
