@@ -33,5 +33,7 @@ public class FindAllFactors {
         int number = sc.nextInt();
 
         System.out.println(determineAllFactors(number));
+
+        sc.close();
     }
 }
