@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StringMagic2 {
+public class ConsecutiveDuplicates {
 
     /**
      * This method checks if a given string has two consecutive identical characters.
@@ -26,7 +26,7 @@ public class StringMagic2 {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
 
-        StringMagic2 obj = new StringMagic2();
+        ConsecutiveDuplicates obj = new ConsecutiveDuplicates();
         if(obj.hasConsecutiveDuplicates(str)) {
             System.out.println("String has duplicate characters");
         }

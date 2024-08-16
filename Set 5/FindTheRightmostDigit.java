@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class StringMagic3 {
+public class FindTheRightmostDigit {
 
     /**
      * This method finds the rightmost digit in a given string.
@@ -23,7 +23,7 @@ public class StringMagic3 {
         return -1;
     }
     public static void main(String[] args) {
-        StringMagic3 obj = new StringMagic3();
+        FindTheRightmostDigit obj = new FindTheRightmostDigit();
         System.out.println("Enter a string: ");
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();

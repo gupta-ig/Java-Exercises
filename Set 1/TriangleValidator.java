@@ -19,4 +19,8 @@ public class TriangleValidator {
             System.out.println("Triangle is not valid");
         }   
     }
+    @Override
+    public String toString() {
+        return "TriangleValidator []";
+    }
 }
