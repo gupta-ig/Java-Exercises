@@ -1,0 +1,5 @@
+Animal
+Bat
+Cat
+People
+Mammals
